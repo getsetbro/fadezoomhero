@@ -1,0 +1,36 @@
+body{
+  margin: 0
+}
+.container{
+  width:1000px;
+}
+header, section, footer{
+  margin: 0 auto;
+  border: 1px solid #333;
+  border-width: 0 1px;
+}
+header{
+  height: 50px;
+  background-color: #444;
+}
+.hero{
+  height: 222px;
+  position: relative;
+  overflow: hidden;
+}
+.hero img{
+  position: absolute;
+  z-index:1;
+  width: 100%
+}
+.hero .active{
+  z-index:3
+}
+section{
+  height: 99px;
+}
+footer{
+  height: 50px;
+  background-color: #444;
+
+}
