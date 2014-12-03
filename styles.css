@@ -1,36 +1,40 @@
 body{
   margin: 0
 }
-.container{
-  width:1000px;
-}
-header, section, footer{
-  margin: 0 auto;
-  border: 1px solid #333;
-  border-width: 0 1px;
-}
+
+
 header{
-  height: 50px;
-  background-color: #444;
+  height: 44px;
+  background-color: #999;
 }
 .hero{
-  height: 222px;
+  height: 444px;
   position: relative;
   overflow: hidden;
 }
 .hero img{
   position: absolute;
   z-index:1;
-  width: 100%
+  width: 100%;
+  transition: all 19s;
+  opacity: 1;
 }
-.hero .active{
+.hero img.first {
+  z-index:3;
+}
+.hero img.next {
+  z-index:2
+}
+.hero img.active {
+  transform: scale(1.1);
+  opacity: 0;
   z-index:3
 }
 section{
-  height: 99px;
+  height: 44px;
 }
 footer{
-  height: 50px;
-  background-color: #444;
+  height: 44px;
+  background-color: #999;
 
 }
