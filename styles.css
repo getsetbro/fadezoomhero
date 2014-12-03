@@ -16,7 +16,7 @@ header{
   position: absolute;
   z-index:1;
   width: 100%;
-  transition: all 19s;
+  transition: all 2s;
   opacity: 1;
 }
 .hero img.first {

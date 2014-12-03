@@ -9,4 +9,4 @@ function cycleImages(){
 //init
 $('.hero img').last().addClass('active');
 // run every x seconds
-setInterval(cycleImages, 19000);
+setInterval(cycleImages, 6000);
